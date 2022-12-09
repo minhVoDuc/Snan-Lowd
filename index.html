@@ -10,13 +10,10 @@
         <title>Snan Lowd</title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="js/function.js"></script>
     </head>
     <body>
-        <!-- <embed src="/assets/music.mp3" loop="true" autostart="true"></embed> -->
-        <iframe src="audio/silence.mp3" allow="autoplay" id="audio" style="display: none"></iframe>
-        <audio id="player" autoplay loop>
-            <source src="audio/music.mp3" type="audio/mp3">
-        </audio>
+        <audio src="/audio/music.mp3" autoplay controls></audio>
         <div class="snowflakes" aria-hidden="true">
             <div class="snowflake">
             ❅
@@ -72,6 +69,5 @@
         </div>        
         <div class="snow"></div>
         <div id="footer">Created by Metacrektal</div>
-        <script src="js/function.js"></script>
     </body>
 </html>
