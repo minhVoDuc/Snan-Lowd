@@ -1,0 +1,38 @@
+html, body {
+    height: 90%;
+}
+
+body {
+    background-image: url("../assets/background.png");
+    background-position: center center;
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.page-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-title {
+    margin-bottom: auto;
+    width: 20%;
+}
+
+.page-title img {
+    width: 100%;
+}
+
+.page-content {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .page-title {
+        width: 60%;
+    }
+  }
