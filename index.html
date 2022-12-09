@@ -3,17 +3,75 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/style.css" type="text/css" rel="stylesheet">
+        <link href="css/snow.css" type="text/css" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel = "icon" href = "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/google/350/snowflake_2744-fe0f.png" 
         type = "image/x-icon">
         <title>Snan Lowd</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </head>
     <body>
+        <!-- <embed src="/assets/music.mp3" loop="true" autostart="true"></embed> -->
+        <iframe src="audio/silence.mp3" allow="autoplay" id="audio" style="display: none"></iframe>
+        <audio id="player" autoplay loop>
+            <source src="audio/music.mp3" type="audio/mp3">
+        </audio>
+        <div class="snowflakes" aria-hidden="true">
+            <div class="snowflake">
+            ❅
+            </div>
+            <div class="snowflake">
+            ❆
+            </div>
+            <div class="snowflake">
+            ❅
+            </div>
+            <div class="snowflake">
+            ❆
+            </div>
+            <div class="snowflake">
+            ❅
+            </div>
+            <div class="snowflake">
+            ❆
+            </div>
+            <div class="snowflake">
+              ❅
+            </div>
+            <div class="snowflake">
+              ❆
+            </div>
+            <div class="snowflake">
+              ❅
+            </div>
+            <div class="snowflake">
+              ❆
+            </div>
+            <div class="snowflake">
+              ❅
+            </div>
+            <div class="snowflake">
+              ❆
+            </div>
+        </div>
         <div class="page-container">
             <div class="page-title"><img src="assets/title.png" alt="title"></div>
             <div class="page-content">
-                Welcome to Snan Lowd ❄️
+                <div class="btn-play">
+                    <a href="https://www.figma.com/proto/nZVLwQucaKVtwqioQ4xrDx/Game?node-id=14%3A5&scaling=scale-down&page-id=0%3A1&starting-point-node-id=14%3A5&hide-ui=1"
+                       class="btn btn-info btn-lg" target="_blank">
+                        <!-- <span class="glyphicon glyphicon-play"></span> -->
+                        Play
+                    </a>
+                </div>
+                <div class="page-notice">
+                    If you use smartphone, please install Figma and login for better experience
+                </div>
             </div>
-        </div>
+        </div>        
+        <div class="snow"></div>
+        <div id="footer">Created by Metacrektal</div>
         <script src="js/function.js"></script>
     </body>
 </html>
