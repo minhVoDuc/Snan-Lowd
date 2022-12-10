@@ -61,7 +61,7 @@ body {
     font-size: 1.6rem;
     font-style: italic;
     color: #fff;
-    text-align: center;
+    text-align: justify;
 }
 
 #footer {
@@ -78,7 +78,7 @@ body {
         width: 40%;
     }
     .page-content {
-        width: 80%
+        width: 90%
     }
     .btn-info {
         font-size: 1.5rem !important;
@@ -90,7 +90,7 @@ body {
         width: 60%;
     }
     .page-content {
-        width: 80%
+        width: 90%
     }
     .btn-info {
         font-size: 2rem !important;
