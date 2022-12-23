@@ -51,17 +51,35 @@ body {
 }
 
 .btn-lg {
+    margin-top: 40px;
     padding: 5px 16px !important;
     border-radius: 10px !important;
 }
 
 .page-notice {
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: 20px;
     font-size: 1.6rem;
     font-style: italic;
     color: #fff;
-    text-align: justify;
+    text-align: center;
+}
+
+.download-link {
+    width: inherit !important; 
+    display: flex;
+    flex-direction: column;
+}
+
+.download-link a {
+    padding-top: 5px;
+    width: inherit !important;
+    display: flex;
+    justify-content: center;
+}
+
+.download-link a img{
+    width: 20%;
 }
 
 #footer {
@@ -83,6 +101,15 @@ body {
     .btn-info {
         font-size: 1.5rem !important;
     }
+    .download-link a img{
+        width: 30%;
+    }
+    .btn-lg {
+        margin-top: 120px;
+    }
+    .btn-info {
+        font-size: 2.5rem !important;
+    }
 }
 
 @media only screen and (max-width: 400px) {
@@ -97,5 +124,11 @@ body {
     }
     .page-notice {
         margin-top: 10px;
+    }
+    .download-link a img{
+        width: 40%;
+    }
+    .btn-lg {
+        margin-top: 120px;
     }
 }
